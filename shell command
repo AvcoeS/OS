@@ -1,0 +1,155 @@
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ pwd
+/home/avcoe
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ ls
+1.java interface2.java
+1.java~ interface2.java~
+35.pdf interface.java
+a1.java interface.java~
+a1.java~ java.p
+abstract.java java.p~
+abstract.java~ kat.txt
+a.cpp largest.java
+a.cpp~ loop1.java
+Add_book.sh loop1.java~
+Add_book.sh~ loop.cpp
+Add.class loop.cpp~
+add.java loop.java
+add.java~ loop.java~
+Add.java Magnazine.java
+Add.java~ main
+add_numbers.sh Main.class
+addressbook.sh main.java
+addressbook.sh~ Main.java
+Address_Book.sh Main.java~
+Address_Book.sh~ MPLABXProjects
+addressbook.sh.save Music
+addressbook.sh.save.1 OSL
+addressbook.txt p1.java
+address.txt p1.java~
+a.java palindrome.class
+anaconda3 palindrome.java
+a.out palindrome.java~
+ArithmeticException_Demo.class Pictures
+arithmetic.java p.java
+arithmetic.java~ p.java~
+ass1.java poly.java
+avcoe.txt poly.java~
+b1.java polymorphism.cpp
+b1.java~ polymorphism.cpp~
+Bicycle.java polymorphism.java
+Bicycle.java~ pr2.sh
+Bike1.java~ pra2.c
+Bike.java pra3.c~
+Bike.java~ pra3.txt
+b.java Public
+b.java~ publication.java
+Book.java publication.java~
+Boy.class Publication.java
+c1.java Publication.java~
+c1.java~ Publication.javaublication.java
+calculator.sh Rectangle.class
+calculator.sh~ Rectangle.java
+Car1.java~ robin.c
+Car.java round.c
+Car.java~ round_robin.c
+class.java round_robin.c~
+command_pro.c RR.c
+command_pro.c~ RR.c~
+ComplexNumber123.java RR.C
+ComplexNumber123.java~ samiksha
+ComplexNumber.class sam.txt
+ComplexNumber.java sam.txt.save
+ComplexNumber.java~ saurabh.java
+Demo.c saurabh.java~
+Demo.c~ scheduling.c
+Demo_folder scheduling.c~
+Desktop Shape.class
+diff bentween data and information.odt shape.java~
+Documents Shape.java
+Downloads shreyash19.java
+Dynamicbinding.java shreyash19.java~
+Dynamicbinding.java~ sjf.c
+Employee1.java swap.java
+Employee1.java~ swap.java~
+Employee.java T190108539.c~
+Employee.java~ Templates
+examples.desktop Test1.java~
+Firefox_wallpaper.png Test.java
+first.c Test.java~
+first.c~ Tringle.class
+Fork_asc_desc.odt Tringle.java
+fork.c Tringle.java~
+fork.c~ Vehicles.class
+humanboy.java Vehicles.java
+humanboy.java~ Vehicles.java~
+Human.class Videos
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~$ cd Demo_folder
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ gedit Temp.txt
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ cat Temp.txt
+Helllo everyone
+Welcome to TE-IT department
+My name is XYZ
+Iam currently in Third year 
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ cp Temp.txt^C
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ cp Temp.txt/home/avcoe/Temp_folder
+cp: missing destination file operand after ‘Temp.txt/home/avcoe/Temp_folder’
+Try 'cp --help' for more information.
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ mkdir sam
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ rmdir sam
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ touch Demo.cpp
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ locate -i De*
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ grep Hello Temp.txt
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ grep name Temp.txt
+My name is XYZ
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ df -m
+Filesystem 1M-blocks Used Available Use% Mounted on
+udev 1927 1 1927 1% /dev
+tmpfs 388 1 388 1% /run
+/dev/sda1 465367 25875 415831 6% /
+none 1 0 1 0% /sys/fs/cgroup
+none 5 0 5 0% /run/lock
+none 1940 1 1940 1% /run/shm
+none 100 1 100 1% /run/user
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ du -h
+8.0K .
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ head Temp.txt
+Helllo everyone
+Welcome to TE-IT department
+My name is XYZ
+Iam currently in Third year 
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ head -n 2 Temp.txt
+Helllo everyone
+Welcome to TE-IT department
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ tail -n 2 Temp.txt
+My name is XYZ
+Iam currently in Third year 
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ man tail
+lTAIL(1) User Commands TAIL(1)
+NAME
+ tail - output the last part of files
+SYNOPSIS
+ tail [OPTION]... [FILE]...
+DESCRIPTION
+ Print the last 10 lines of each FILE to standard output. With more
+ than one FILE, precede each with a header giving the file name. With
+ no FILE, or when FILE is -, read standard input.
+ Mandatory arguments to long options are mandatory for short options
+ too.
+ -c, --bytes=K
+ output the last K bytes; alternatively, use -c +K to output
+ bytes starting with the Kth of each file
+ -f, --follow[={name|descriptor}]
+ output appended data as the file grows; -f, --follow, and --fol‐
+ low=descriptor are equivalent
+ Manual page tail(1) line 1 (press h for help or q to quit)
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ find sam.txt
+find: `sam.txt': No such file or directory
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ find Demo.cpp
+Demo.cpp
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ diff Demo.cpp Temp.txt
+0a1,4
+> Helllo everyone
+> Welcome to TE-IT department
+> My name is XYZ
+> Iam currently in Third year 
+avcoe@avcoe-HP-ProDesk-400-G1-SFF:~/Demo_folder$ 
